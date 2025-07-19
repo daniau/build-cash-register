@@ -1,0 +1,139 @@
+:root{
+  --light-gray:#dfdfe2;
+  --light-blue:#0a0a23;
+}
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body{
+  background-color: var(--light-blue);
+  color: var(--light-gray);
+  padding: 25px;
+}
+h1{
+  font-size: 2.5rem;
+  text-align: center;
+}
+main{
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    height: 112vh;
+}
+#change-due{
+  margin: 12px 10px;
+}
+.change-due p{
+  text-align: left;
+  margin: 0;
+  font-size: 12px;
+}
+.input-div{
+  margin: 10px;
+}
+label{
+  font-size: 16px;
+  /* margin-top: 8px; */
+  text-align: center;
+}
+
+input{
+  margin: 10px;
+  padding: 3px 7px;
+  border: .5px solid var(--light-gray);
+  max-width: 190px;
+}
+.btn-Style{
+  background-image: linear-gradient(#fecc4c,#ffac33);
+  border-width: 3px ;
+  border-color: #feac32;
+  font-weight: bold;
+  font-size: 15px;
+  padding:3px 8px;
+  color: #0a0a23;
+  cursor: pointer;
+  margin-top: 10px;
+
+}
+.btn-Style:active{
+  transform: scale(0.97);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+ 
+
+}
+.price-screen{
+  background-color: black;
+  border: 10px solid #99c9ff;
+  text-align: center;
+  position: relative;
+  width: 160px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 29px 50px;
+}
+.connector{
+  position: absolute;
+  background-color: #99c9ff;
+  width: 40px;
+  height: 30px;
+  transform: translate(165%, -100%);
+}
+.top-register{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #99c9ff;
+  height: 220px;
+  width: 275px;
+  border-top-left-radius:18%;
+  border-top-right-radius: 18%;
+  padding: 20px 15px;
+  font-size: 14px;
+}
+.cash-drawer{
+  background-color: white;
+  color: #0a0a23;
+  padding: 8px;
+  width: 150px;
+  height: 185px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 3px;
+  height: 50px;
+
+}
+.btn{
+  background-color: black;
+  width: 18px;
+  height: 18px;
+  border: none;
+  border-radius: 2px;
+}
+.last{
+  width: 275px;
+  height: 45px;
+  background-color: #99c9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drawer-dot{
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  background-color: black;
+ 
+}
+
+
