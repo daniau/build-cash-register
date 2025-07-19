@@ -49,5 +49,5 @@ It helps reinforce understanding of:
 
 ## ✅ Author
 
-Made with ❤️ by [Dania Muin Fathi Ubeid]
+Made with ❤️ by Dania Muin Fathi Ubeid
 
